@@ -21,11 +21,11 @@ function FormCadastro({prevProdutos, setProdutos}) {
         <form className="form-cadastro" onSubmit={handleSubmit}>
             <label>
                 Nome: 
-                <input type="text" name="nome" />
+                <input type="text" name="nome" required />
             </label>
             <label>
                 Preço: 
-                <input placeholder="R$" type="number" name="preco" />
+                <input placeholder="R$" type="number" name="preco" required />
             </label>
             <label>
                 Descrição: 
